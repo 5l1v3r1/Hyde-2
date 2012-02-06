@@ -1,0 +1,67 @@
+ ..::hyde:NetWork:FlowTest::..
+                 __..._                                          
+              ,-`      `',                                        
+            ,'            \
+           /               |   
+         ,'       ,        \
+       ,'       ,/-'`       \
+   _ ./     ,.'`/            \
+.-` `^\_,.'`   /              `\__                                
+7     /       /   _,._,.,_,.-'.`  `\                   (((((((((((((((
+\A  __/   ,-```-``   `,   `,   `  ,`)                      ((((       
+  ^-`    /      `                 ,/                    )))))))))          
+         (        ,   ,_   ,-,_,<`                         (((((((        
+          \__ T--` `''` ```    _,\                      (((((((
+            \_/|\_         ,.-` | |                       ))))         
+            _/ | |T\_   _,'Y    / +--,_                  (((         
+        <```   \_\/_/  `\\_/   /       `\          ______________
+        /  ,--   ` _,--,_`----`   _,,_   \        [______________]
+       /  ` |     <_._._ >       `  \ `  \`        \             |  
+      |     |       ,   `           |     |         \           /   
+       V|   \       |                |   |`          \         /    
+        \    \      /               (================(         )               
+         \x   \_   |             /-`    /             +-------+             
+           \    `-,|        ,/--`     /`                          
+            \x_    \_  /--'`       , /                            
+               \x_   ``        ,,/` `                             
+                  `-,_,-'   ,'`                                   
+                   _|       |`\  
+                  ( `-``/``/`_/     
+                   `-`-,.-.-`                      
+
+coded by
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░▓██████▒░▓████░▓████░▓█▒░░░░▓█████▒░▓██████▒░░░░
+░░▓██▒░░░░░░▓▒░░█░▓▒░░█░▓█▒░░░░▓█▒░░░░░▓█▒░░░█▒░░░░
+░░▓█▒░░░░░░░▓▒░░█░▓▒░░█░▓█▒░░░░▓████▒░░▓█████▒░░░░░
+░░▓██▒░░░░░░▓▒░░█░▓▒░░█░▓█▒░░░░▓█▒░░░░░▓█▒░░▓█▒░░░░
+░░░▓██████▒░▓████░▓████░▓████▒░▓█████▒░▓█▒░░░▓█▒░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                   "He nozes"
+
+ *  jUsT Another Tool to Test your NetWork
+  "follow this:",
+  "./code HOST PORT Number_Packets_to_send TYPE threads",
+  " 0 - XMAS with Spoofing",
+  " 1 - SYN+ACK with Spoofing",
+  " 2 - SYN+ACK with Mirror Spoofing",
+  " 3 - FIN+ACK with Spoofing",
+  " 4 - FIN+ACK with Mirror Spoofing",
+  " 5 - URG+ACK with Spoofing",
+  " 6 - URG+ACK With Mirror Spoofing",
+  " 7 - PSH+ACK With Spoofing",
+  " 8 - XMAS with Mirror Spoofing",
+  "ex: ./code www.server.com 80 20000 4 5",
+  "..::hyde:NetWork:FlowTest::..",
+
+ Need RooT to COmpile THis
+  gcc -o hyde3 hyde3.c;
+
+Author: Cooler_
+E-mail: c00f3r[at]gmail[dot]com
+date: 17/03/2010
+BugSec Security TEAM
+http://code.google.com/p/bugsec/
+thanks: m0nad,_mlk_,IAK,sigsegv,b4r0n,MenteBinaria,
+f117,delfo,c0lt7r,joey,fokerbug,zepplin,otacon,backbone,
+nibbles,voidpointer,muzgo,nbrito...
