@@ -356,10 +356,7 @@ void *fazerpacote(void *arg)
 // abrimos a socket   
   tcp_socket = socket(AF_INET, SOCK_RAW, IPPROTO_RAW);    
   if(tcp_socket < 0) 
-  {    
-   perror("socket");    
-   exit(1);    
-  }    
+   DEBUG("error in socket()"); 
         
 // setamos os campos que precisão ser mudados   
   envio.tcp.source++;    
