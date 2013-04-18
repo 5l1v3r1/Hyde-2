@@ -409,14 +409,14 @@ void help()
 
 int main(int argc, char *argv[]) 
 {
- char IP[15];
+ char IP[16];
  char *destino=NULL;
  in_addr_t remetente;
  void * addr_ptr = NULL;
  addr_ptr = &remetente;
  char addr_str[256];
 
- unsigned short port=80;     
+ int port=80;     
  int escolha=0,filhos=0,count=0;
  long long int number=500;
  int8_t rc1;
@@ -468,7 +468,7 @@ int main(int argc, char *argv[])
   fprintf(stdout,"threads         : %u\n",filhos);
   fprintf(stdout,"Number of times: %lld\n\n", number); 
      
-  destino=xmalloc(sizeof(IP));  
+  destino=(char *)xmalloc(sizeof(IP));  
   strncpy(destino,IP, (sizeof(IP)) );
 
   switch(escolha)
