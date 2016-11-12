@@ -13,7 +13,7 @@
   " 7 - PSH+ACK With Spoofing",
   " 8 - XMAS with Mirror Spoofing",
   "ex: ./code www.server.com 80 20000 4 5",
-  "..::hyde:NetWork:FlowTest::..",
+  "..::hyde:NetWork:FlowTest::..v 0.1",
 
 Author: Cooler_
 E-mail: c00f3r[at]gmail[dot]com
@@ -85,6 +85,12 @@ int main(int argc, char *argv[])
   		exit(0);    
  	}    
 
+	if(strnlen(argv[1],33)==33)
+	{
+		DEBUG("Don't try exploit it, champion !\n");
+		exit(1);
+	}
+
  	if(!orion_getHostByName(argv[1],IP))
  	{
   		DEBUG("orion_gethostbyname() failed");
@@ -119,8 +125,6 @@ int main(int argc, char *argv[])
    		}
 
    		number = atoi(argv[3]);
-
-
   	}
 
 
@@ -269,11 +273,11 @@ int main(int argc, char *argv[])
 
  	}
 
- 	free(thread);
- 	free(destino);
- 	free(ThreadArgv);
- 	free(StrPort);
- 	free(StrChoice);
+ 	XFREE(thread);
+ 	XFREE(destino);
+ 	XFREE(ThreadArgv);
+ 	XFREE(StrPort);
+ 	XFREE(StrChoice);
 
  	exit(0);
 }    
