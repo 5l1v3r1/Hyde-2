@@ -213,7 +213,7 @@ int main(int argc, char *argv[])
    	pthread_t *thread;
    	thread=(pthread_t *)xmalloc(sizeof(pthread_t)*filhos+1);
 
-// pack to bypass void pointer
+// pack to pass to void pointer
    	char **ThreadArgv;
    	ThreadArgv=(char **)xmalloc(4*sizeof(char *));
    	char *StrPort=(char *)xmalloc(sizeof(char)*6);
