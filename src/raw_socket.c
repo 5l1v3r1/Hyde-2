@@ -64,9 +64,9 @@ void *fazerpacote(void *arg)
  char **arguments = (char **)arg;
  source_addr=arguments[0];
  dest_addr=arguments[1];
- dest_port=atoi(arguments[2]);
- ran_port=atoi(arguments[3]);
- escolha=atoi(arguments[4]);
+ dest_port=(int)strtol(arguments[2],(char **)NULL,10);
+ ran_port=(int)strtol(arguments[3],(char **)NULL,10);
+ escolha=(int)strtol(arguments[4],(char **)NULL,10);
 /////
 
  struct envio {    

@@ -109,7 +109,7 @@ int main(int argc, char *argv[])
    		}
 
 
-   		port = atoi(argv[2]); 
+   		port = (int)strtol(argv[2],(char **)NULL,10); 
 
    		if(!(port<=65535&& port>0)) 
     			DEBUG("error in port");
@@ -124,7 +124,7 @@ int main(int argc, char *argv[])
 			exit(1);	
    		}
 
-   		number = atoi(argv[3]);
+   		number = (int)strtol(argv[3],(char **)NULL,10);
   	}
 
 
@@ -138,7 +138,7 @@ int main(int argc, char *argv[])
 			exit(1);	
    		}
 
-   		escolha = atoi(argv[4]);
+   		escolha = (int)strtol(argv[4],(char **)NULL,10);
 
    		if(escolha<0 || escolha > 8)
     			DEBUG("please choice a true option");
@@ -154,7 +154,7 @@ int main(int argc, char *argv[])
 			exit(1);	
    		}
 
-   		filhos = atoi(argv[5]);  
+   		filhos = (int)strtol(argv[5],(char **)NULL,10);  
    		if(filhos<=0)
     			DEBUG("set number of threads please");       
   	}
